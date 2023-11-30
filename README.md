@@ -20,3 +20,5 @@ Attached is a diagram of the revised approach. We would welcome any feedback you
 ![alt text](static/final-project.jpg)
 
 ## Finalized Materials List
+1. LEDs
+2. 
