@@ -1,11 +1,11 @@
 # laughing-octo-fiesta
 
 
-#CPSC 334 Final Project, Creative Embedded Systems
+# CPSC 334 Creative Embedded Systems: Final Project
 
 In collaboration with Richard Corrente
 
-##Description:
+## Description:
 We’re going to stick with the Sisyphus theme, but we will make it less frustrating for the user and less ‘game-like’ overall. Our initial priority was to encourage the user to apply some degree of physical exertion. We realized that the screaming feature was an uncomfortable mode of interaction for a typical person, so we scrapped it.
 
 
@@ -20,3 +20,5 @@ Attached is a diagram of the revised approach. We would welcome any feedback you
 ![alt text](static/final-project.jpg)
 
 ## Finalized Materials List
+1. LEDs
+2. 
