@@ -1,3 +1,11 @@
+"""
+Audio recording script using PyAudio. Captures 5 seconds of stereo audio input, 
+specified by the 'channels', 'rate', 'input_device_index', and 'frames_per_buffer'
+parameters. Saves the recorded audio to a WAV file named 'audio-recording.wav' with
+properties defined by 'setnchannels', 'setsampwidth', and 'setframerate' in the 
+'wave' module. Adjustments can be made to parameters based on recording requirements.
+"""
+
 import pyaudio
 import wave
 
@@ -9,13 +17,12 @@ import wave
 pa = pyaudio.PyAudio()
 
 stream_in = pa.open(
-    rate=48000,
-    channels=2,
-    format=pyaudio.paInt16,
-    input=True,                   # input stream flag
-    input_device_index=1,         # input device index
-    frames_per_buffer=1024
-)
+    format = pyaudio.paInt16,
+    channels = 2, 
+    rate = 44100,
+    input_device_index = 4,
+    input = True,
+    frames_per_buffer = 1024)
 
 # read 5 seconds of the input stream
 input_audio = stream_in.read(5 * 48000)

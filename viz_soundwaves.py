@@ -1,8 +1,15 @@
+"""
+RealTime Audio Waveform plot:
+Real-time audio waveform plot using PySimpleGUI. Captures audio input and dynamically 
+displays the waveform using PySimpleGUI's Graph element. The program allows listening, 
+stopping, and exiting. Adjust parameters like CHUNK, RATE, INTERVAL, and TIMEOUT based on 
+recording requirements. The waveform plot is continuously updated in the main loop, 
+indicating real-time audio changes. Ensure PySimpleGUI and PyAudio are installed.
+"""
+
 import PySimpleGUI as sg
 import pyaudio
 import numpy as np
-
-""" RealTime Audio Waveform plot """
 
 # VARS CONSTS:
 _VARS = {'window': False,
