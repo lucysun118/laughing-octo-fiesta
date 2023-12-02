@@ -1,32 +1,9 @@
-# laughing-octo-fiesta
-
-
-# CPSC 334 Creative Embedded Systems: Final Project
-
-In collaboration with Richard Corrente
-
-## Description:
-We’re going to stick with the Sisyphus theme, but we will make it less frustrating for the user and less ‘game-like’ overall. Our initial priority was to encourage the user to apply some degree of physical exertion. We realized that the screaming feature was an uncomfortable mode of interaction for a typical person, so we scrapped it.
-
-
-We considered 4 ideas in depth - descriptions of the first 3 are attached in this email for reference of our thought process—also in the event that you two might actually like any of them. We switched gears to a more wholesome, artistic approach - idea 4.
-
-
-In our current finalized plan, we were thinking of taking a less torture-focused approach for the user and have Sisphysus and the boulder rotate in a continuous circle, allow the user input to be a user-chosen song from a set of original music performed by Lucy (classical piano), and the LEDs and motion of Sisphyus and the boulder “pulse” to the music beat (the range of music would vary from slower tempos to faster ones). This would allow a more “installation-like” system and allow us to focus on craftsmanship of the enclosure, which we anticipate would take an extensive amount of time.
-
-
-Attached is a diagram of the revised approach. We would welcome any feedback you and/or Joe may have as we continue implementing our design!
-
-![alt text](static/final-project.jpg)
-
-## Finalized Materials List
-
-
 ### Hardware List:
 1. 12 (or more) servo motors: $0 (so far)
 2. Wood: $0 (so far)
-3. Servo shield (https://www.adafruit.com/product/1411 - $17.50): 4. $0, already in AKW
-5. Microphone (https://www.adafruit.com/product/1063): $6.95
+3. Microphone (https://www.adafruit.com/product/1063): $0, provided by Scott
+4. Wood glue: $0 (in CEID)
+5. Paint: ~$10 (unsure of color, probably going to buy this ourselves at Hull's)
 
 ### Piston mechanism:
 Quick burst of force…this will hopefully maximize our chances of smooth and synchronized movement
@@ -49,3 +26,6 @@ We will read through the sound waves produced by whatever noise is in the enviro
 ### Concerns:
 Sensitivity will probably require extensive testing
 How much noise will the esp32 produce on its own? The Adafruit shop page claims this shouldn’t be an issue if the mic uses the 3.3V pin, but that is just a claim.
+
+
+![Project diagram](https://i.imgur.com/QYguxCl.jpeg)
