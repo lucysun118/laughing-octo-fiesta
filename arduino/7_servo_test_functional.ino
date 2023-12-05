@@ -19,25 +19,37 @@ void setup() {
 }
 
 void loop() {
-  val = 150;
-  myservo1.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
+    for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+		// in steps of 1 degree
+		myservo1.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+	for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+		myservo1.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+    delay(1000);                           // waits for the servo to get there
 
-  myservo2.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
+    for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+		// in steps of 1 degree
+		myservo2.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+	for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+		myservo2.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+    delay(1000);                           // waits for the servo to get there
 
-  myservo3.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
+    for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+		// in steps of 1 degree
+		myservo3.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+	for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+		myservo3.write(pos);    // tell servo to go to position in variable 'pos'
+		delay(15);             // waits 15ms for the servo to reach the position
+	}
+    delay(1000);                           // waits for the servo to get there
 
-  myservo4.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
-
-  myservo5.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
-
-  myservo6.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
-
-  myservo7.write(val);                  // sets the servo position according to the scaled value between 0-180
-  delay(1000);                           // waits for the servo to get there
 }
