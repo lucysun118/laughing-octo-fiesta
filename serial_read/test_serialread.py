@@ -3,7 +3,7 @@ import serial
 import subprocess
 import webbrowser
 from scale_vals import scale_values
-from musenet_code import text_to_midi
+#from musenet_code import text_to_midi
 
 ser = serial.Serial(port="/dev/tty.usbserial-110", baudrate=115200, timeout=5)
 
