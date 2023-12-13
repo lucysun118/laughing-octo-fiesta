@@ -3,12 +3,10 @@ from fractions import Fraction
 from midiutil.MidiFile import MIDIFile
 import openai, mido
 from openai import OpenAI
-
-
-
+from config import OPENAI_SECRET_KEY
 
 #settings
-openaiKey = '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'
+openaiKey = OPENAI_SECRET_KEY
 system = 'You are MusicGPT, a music creation and completion chat bot that generates original, complex MIDI music with full parts. When a user gives you a prompt containing words expressing emotions and numbers on the scale of 1-10 following each emotion phrase/word,' \
           ' you return them a song showing the notes, durations, and times that they occur. Plan out the structure beforehand, including chords, parts (soprano, alto, tenor, bass), meter, etc. Over 200 notes total. The numbers represent how intense they want the emotion to be reflected in the music (numbers closer to 10 reflect higher levels of that particlar emotion and numbers closer to 1 reflect lower levels).' \
         ' The words for the emotions will be "euphoric", "nostalgic", "melancholic", "tranquil", "uplifting", "ethereal", and "jolliness". You will receive a prompt from the user like' \
