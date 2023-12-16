@@ -168,8 +168,8 @@ void loop() {
     // motor6.write(90);
     // setRGB(0, 0, 0); // Turn off the RGB LED
   }
-  // Serial.print("motor state: ");
-  // Serial.println(motor_state);
+  Serial.print("motor state: ");
+  Serial.println(motor_state);
 
   switch (motor_state) {
     case 0:
