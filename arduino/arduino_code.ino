@@ -213,6 +213,11 @@ void loop() {
         stop_servo(motor_state, motor1);
       }
       motor1.write(90);   // stop the motor
+      motor2.write(90);   // stop the motor
+      motor3.write(90);   // stop the motor
+      motor4.write(90);   // stop the motor
+      motor5.write(90);   // stop the motor
+      motor6.write(90);   // stop the motor
       motor1_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
       break;
@@ -242,7 +247,12 @@ void loop() {
         switch_state = mySwitch.getState();
         stop_servo(motor_state, motor2);
       }
+      motor1.write(90);   // stop the motor
       motor2.write(90);   // stop the motor
+      motor3.write(90);   // stop the motor
+      motor4.write(90);   // stop the motor
+      motor5.write(90);   // stop the motor
+      motor6.write(90);   // stop the motor
       motor2_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
       break;
@@ -270,7 +280,12 @@ void loop() {
         switch_state = mySwitch.getState();
         stop_servo(motor_state, motor3);
       }
+      motor1.write(90);   // stop the motor
+      motor2.write(90);   // stop the motor
       motor3.write(90);   // stop the motor
+      motor4.write(90);   // stop the motor
+      motor5.write(90);   // stop the motor
+      motor6.write(90);   // stop the motor
       motor3_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
       break;
@@ -298,7 +313,12 @@ void loop() {
         switch_state = mySwitch.getState();
         stop_servo(motor_state, motor4);
       }
+      motor1.write(90);   // stop the motor
+      motor2.write(90);   // stop the motor
+      motor3.write(90);   // stop the motor
       motor4.write(90);   // stop the motor
+      motor5.write(90);   // stop the motor
+      motor6.write(90);   // stop the motor
       motor4_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
       break;
@@ -326,7 +346,12 @@ void loop() {
         switch_state = mySwitch.getState();
         stop_servo(motor_state, motor5);
       }
+      motor1.write(90);   // stop the motor
+      motor2.write(90);   // stop the motor
+      motor3.write(90);   // stop the motor
+      motor4.write(90);   // stop the motor
       motor5.write(90);   // stop the motor
+      motor6.write(90);   // stop the motor
       motor5_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
       break;
@@ -354,6 +379,11 @@ void loop() {
         switch_state = mySwitch.getState();
         stop_servo(motor_state, motor6);
       }
+      motor1.write(90);   // stop the motor
+      motor2.write(90);   // stop the motor
+      motor3.write(90);   // stop the motor
+      motor4.write(90);   // stop the motor
+      motor5.write(90);   // stop the motor
       motor6.write(90);   // stop the motor
       motor6_pos = curr_elapsed_time;
       curr_elapsed_time = 0;
