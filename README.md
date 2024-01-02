@@ -1,7 +1,7 @@
 # Emotion Synthesizer: Feel, Create, Hear
 ## CPSC 334 Creative Embedded Systems: Final Project
 
-In collaboration with Richard Corrente
+In collaboration with **[Richard Corrente](https://github.com/ExzoZbta)**
 
 ![Front image of enclosure](https://i.imgur.com/oQsITTU.png)
 ![2nd Front image of enclosure](https://i.imgur.com/UT0SRK3.png)
