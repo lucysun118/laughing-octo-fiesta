@@ -1,8 +1,4 @@
-
-# laughing-octo-fiesta
-
-
-# EmoSynth: Feel, Create, Hear
+# Emotion Synthesizer: Feel, Create, Hear
 ## CPSC 334 Creative Embedded Systems: Final Project
 
 In collaboration with Richard Corrente
@@ -111,5 +107,3 @@ Total: $144.41 🫠
 
 ![Image of enclosure's back](https://i.imgur.com/fns3War.png)
   - Back panel with 2 metal hinges attached for easy access to circuitry and blocks.
-
-
