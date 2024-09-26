@@ -91,7 +91,7 @@ Total: $144.41 🫠
 5. 3D-printed linear actuators (3D-printing service provided): $0
 6. Metal hinges (found + modified in the School of Architecture): $0
 7. 50 1.5x1.5 inch Wooden blocks (used 24): $23.39
-8. Small button (provided: $0
+8. Small button (provided): $0
 9. Switch (provided): $0
 10. RGB LED (provided): $0
 11. ESP32 (provided): $0
